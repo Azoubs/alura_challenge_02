@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/hangman.png">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-forca">
+            <canvas id="forca" height="600px" width="900px"></canvas>
+        </div>
+        <div class="input-forca">
+            <div class="input-botao">
+                <a href="index.html">Início</a>
+                <a href="forca.html">Reiniciar</a>
+            </div>
+            <div class="input-campos">
+                <label for="letra">Digite uma letra</label>
+                <input type="text" name="letra" id="letra">
+                <button>Tente!</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/palavras.js"></script>
+    <script src="js/desenha.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
